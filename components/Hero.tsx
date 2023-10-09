@@ -2,6 +2,7 @@
 
 import React from 'react'
 import { CustomButton } from '.'
+import Image from 'next/image'
 
 const handleScroll = () =>{}
 
@@ -23,6 +24,17 @@ const Hero = () => {
         containerStyles = " bg-primary-blue text-white rounded-full mt-10 p-3"
         handleClick = {handleScroll}
         />
+      </div>
+      <div className='hero__image-container'>
+        <div className='hero__image'>
+            <Image 
+            src={'/hero.png'}
+            alt='this is a hero car image' fill className='object-contain'
+
+            /> 
+            <div className='hero__image-overlay'/>
+        </div>
+
       </div>
     </div>
   )
