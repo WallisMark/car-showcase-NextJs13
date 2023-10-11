@@ -13,7 +13,7 @@ const Hero = () => {
   return (
     <div className='hero'>
       <div className='flex-1 pt-6 padding-x'>
-        <h1 className='hero__title'>
+        <h1 className='hero__title mt-20' >
             Find, book or rent a car!
         </h1>
         <p className='hero__subtitle'>
@@ -32,8 +32,9 @@ const Hero = () => {
             alt='this is a hero car image' fill className='object-contain'
 
             /> 
+            </div>
             <div className='hero__image-overlay'/>
-        </div>
+        
 
       </div>
     </div>
