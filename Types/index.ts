@@ -6,3 +6,8 @@ export interface CustomButtonProps{
     handleClick?: MouseEventHandler<HTMLButtonElement>
     btnType?: 'submit' | 'button'
 }
+
+export interface SearchManufactureProps{
+    manufacturer:string
+    setManufacturer: (manufacture:string) => void
+}
